@@ -1,0 +1,382 @@
+body {
+    max-width: 100vw;
+}
+
+/* video section */
+video {
+    max-width: 100vw;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+section {
+    margin: 0%;
+    padding: 0%;
+}
+
+section>div {
+    max-width: 100vw;
+}
+
+/* card section */
+/* event card */
+.event-card {
+    min-width: 200px;
+    width: 100%;
+    color: #C0C0C0;
+    /*#D3D3D3*/
+    /*#ff0000*/
+    /* floting card text*/
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 10px;
+    align-self: stretch;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    background-image: url("../images/Eknos Events/1.png");
+    background-size: cover;
+}
+
+.event-card::before {
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent overlay */
+    z-index: 1;
+    /* Make sure overlay is behind the text */
+}
+
+.event-card-body {
+    z-index: 2;
+}
+
+.text-with-image {
+    font-size: 48px;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    color: transparent;
+    /* Makes the text transparent so the image shows through */
+    background-image: url('path-to-your-image.jpg');
+    /* Path to your image */
+    background-clip: text;
+    /* Clips the background image to the text */
+    -webkit-background-clip: text;
+    /* Needed for cross-browser support */
+    display: inline-block;
+    /* Ensures the background is applied only to the text */
+}
+
+.event-card-title {
+    /* color: #D4AF37; */
+    color: transparent;
+    background-image: url('../images/golden.png');
+    background-clip: text;
+    /* Clips the background image to the text */
+    -webkit-background-clip: text;
+    /*rgb(189, 154, 47)*/
+    /* title text */
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* .event-card-link {
+    color: #FFFFFF;
+    
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 600;
+    justify-self: flex-end !important;
+} */
+
+.card-container {
+    width: 90%;
+    max-width: 100vw;
+    padding: 2%;
+    margin-top: -2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#events {
+    margin-top: -10rem;
+    max-width: 100vw;
+}
+
+#events>div {
+    max-width: 100vw;
+}
+
+@media(max-width: 900px) {
+    .card-container {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    #events {
+        margin-top: 0rem;
+    }
+
+    .event-card {
+        margin-top: 2rem;
+    }
+
+
+}
+
+/* big event card */
+.big-event-card {
+    height: fit-content;
+    margin-top: 2rem;
+    max-width: 100vw;
+
+}
+
+.big-event-card-body {
+    margin-top: -2.5rem;
+}
+
+.big-event-card-title {
+    font-size: 50px;
+    font-weight: 800;
+    /* color: #D4AF37; */
+    color: transparent;
+    background-image: url('../images/golden.png');
+    background-clip: text;
+    /* Clips the background image to the text */
+    -webkit-background-clip: text;
+    /*#212121*/
+    text-decoration: underline;
+}
+
+.big-event-card-text {
+    margin-top: 5px;
+    color: #C0C0C0;
+}
+
+@media (max-width: 992px) {
+    .big-event-card-title {
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .big-event-card-title {
+        font-size: 36px;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .big-event-card-title {
+        font-size: 25px;
+    }
+
+}
+
+/* .big-event-card-link {
+    display: inline-block;
+    height: 40px;
+    text-decoration: none;
+    color: #323334;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 25%;
+    }
+    
+    .big-event-card-link:hover {
+        color: #0791BE;
+        } */
+.big-event-img {
+    display: flex;
+    justify-content: center;
+}
+
+.big-event-img>img {
+    max-height: 500px;
+    object-fit: fill;
+    margin: auto;
+}
+
+.event-img-right {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .big-event-img>img {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .event-img-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-img-left {
+        display: none;
+    }
+}
+
+/* completed events */
+.completed-events {
+    color: #747474;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.events-count {
+    width: 90%;
+    color: black;
+}
+
+.events-count div {
+    margin-top: 4rem;
+}
+
+.events-count i {
+    font-size: 20px;
+}
+
+.completed-events>h1 {
+    display: block;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.completed-events p {
+    line-height: 1;
+}
+
+.no-of-event {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    /* color: #f8d35ac1; */
+    color: transparent;
+    background-image: url('../images/golden.png');
+    background-clip: text;
+    /* Clips the background image to the text */
+    -webkit-background-clip: text;
+    /*#101F46*/
+    transition: all 1s ease-in-out;
+}
+
+.no-of-event-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+    .completed-events>h1 {
+        font-size: 35px;
+    }
+
+}
+
+
+@media(max-width: 768px) {
+    .no-of-event {
+        font-size: 30px;
+        color: #f8d35ac1;
+    }
+
+    .completed-events>h1 {
+        display: block;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .no-of-event {
+        font-size: 20px;
+    }
+
+}
+
+/* why eknos */
+.event-why-us {
+    padding: 2%;
+    margin-bottom: 2rem;
+}
+
+.event-why-us>div {
+    width: 80%;
+}
+
+/* event scroller */
+.slick-prev {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+}
+
+/* event Gallery */
+.event-Gallery {
+    margin-top: 0;
+}
+
+.feature-image {
+    display: flex;
+    justify-content: center;
+}
+
+.event-card-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1D2951;
+    color: #D4AF37;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #D4AF37;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-card-link {
+    display: inline-block;
+    padding: 3px 6px;
+    background-color: #1D2951;
+    color: #D4AF37;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #D4AF37;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.nav-card-link,
+.event-card-link:hover {
+    background-image: url('../images/golden.png');
+    color: #1D2951;
+    border-color: #1D2951;
+}
+
+/* Focus effect to keep accessibility in mind */
+.nav-card-link,
+.event-card-link:focus {
+    outline: 1px solid #D4AF37;
+}

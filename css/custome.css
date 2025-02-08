@@ -1,0 +1,291 @@
+@font-face {
+  font-family: 'Traveler';
+  src: local('Traveler'),
+        url('../assets/Fonts/Traveler.ttf') format("truetype");
+}
+
+#my_sub_Heading{
+  font-family:"Traveler";
+  font-size: 5rem;
+  color:#101F46;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 20px
+}
+
+#my_home_banner{
+    /* background:url(../assets/images/ecno_home_video.mp4) ; */
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#backgroundVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+#my_home_banner_1{
+    background:url(../assets/images/slider-banner-2.jpg) ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+#my_callback_imge_1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 540px;
+}
+
+#my_contact_img{
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: -136px;
+  min-height: 385px;
+}
+
+
+#my_sub_Heading{
+  font-family:"Traveler";
+  src: url("../assets/Fonts/Traveler.ttf") format("truetype");
+  font-size: 5rem;
+  color:#101F46;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 20px;
+}
+@media screen and (max-width:476px){
+  #slogan-box{
+    transform: translate(0, 83px) !important;
+  }
+  #my_sub_Heading{
+    font-size:2.5rem !important;
+  }
+  
+}
+
+
+
+.trip-search-section .trip-search-inner {
+  box-shadow: 0px 15px 25px 10px rgba(0, 0, 0, 0.08);
+  padding: 0px 0px 0px;
+  position: relative;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#banner_back_img{
+  /* background:url(../assets/images/blog-list-view.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 190px 0 150px;
+  text-align: center;
+  position: relative;
+  
+}
+#detail_bg_banner {
+  background:url(../assets/images/inner-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 190px 0 150px;
+  text-align: center;
+  position: relative;
+}
+
+#blog_banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 190px 0 150px;
+  text-align: center;
+  position: relative;
+}
+#blog_detail_banner {
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 190px 0 150px;
+  text-align: center;
+  position: relative;
+}
+
+.place_cont{
+  width: 38rem; 
+  object-fit: contain;
+  padding: 0.50rem;
+}
+
+.book_now{
+  /* margin-left: 10px; */
+  color:#0791BE;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+  border:  1px solid #0791BE ;
+}
+/* .view_button{
+  margin-left: 10px;
+  color:#0791BE;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+  border:  1px solid #0791BE ;
+} */
+
+#des_hotel_sec{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-blue-and-pink-smoke-background-png-and-psd-download-picture-image_1158410.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.place_row_head{
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.special-section {
+  padding-bottom: 1px;
+}
+
+.Gallery_list_sec{
+  margin-bottom: 2rem;
+}
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.dest_img_1{
+  width: 322px !important;
+  height: 539px !important;
+  object-fit: cover;
+}
+.dest_img_2{
+  width: 460px !important;
+  height: 255px !important;
+  object-fit: cover;
+}
+.place_img_size{
+  width: 365px !important;
+  height: 305px !important;
+  object-fit: cover;
+  
+}
+
+#gallery-img-1{
+  width:455px;
+  height:330px;
+  object-fit: cover;
+}
+#gallery-img-2{
+  width:315px;
+  height:250px;
+  object-fit: cover;
+}
+#gallery-img-3{
+  width:315px;
+  height:250px;
+  object-fit: cover;
+}
+#gallery-img-4{
+  width:655px;
+  height:350px;
+  object-fit: cover;
+}
+.additional-img{
+  width:655px !important;
+  height:350px !important;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+/* @media screen and(max-width:576px){
+  .more-places{
+    width:75%;
+  }
+} */
+
+.blog-detail-image{
+  width:1200px !important;
+  height:400px !important;
+  object-fit: cover !important;
+}
+.offer-image{
+  width:360px;
+  height:450px;
+  object-fit: cover;
+}
+
+.packages-image{
+  height: 242.66px !important;
+}
+.blogs-image{
+  height:300px !important;
+}
+
+/* @media (max-width: 768px) {
+  .slick-carousel {
+    width: 100%;
+  }
+} */
+
+
+#india_address:hover{
+  color:blue !important;
+}
+
